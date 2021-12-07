@@ -1,5 +1,5 @@
 {
-  "name": "browser-log",
+  "name": "log-color-console",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
