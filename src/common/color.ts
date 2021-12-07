@@ -55,8 +55,8 @@ const colors = (text: string, type: string) => {
  */
 const groupColors = (text: string[], type: string[]) => {
   return [
-    text.map((t) => `%c ${t} `).join(),
-    type.map((t, i) => {
+    text.map((t) => `%c ${t} `).join(''),
+    ...type.map((t, i) => {
       let r = '';
       if (i === 0) {
         r = leftRadius;

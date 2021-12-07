@@ -22,13 +22,13 @@ jobs:
         with:
           node-version: 16.13.0
           registry-url: https://registry.npmjs.org/
-      - run: pnpm install
+      - run: yarn install
       - name: 'Git Configure'
         uses: dawidd6/action-git-user-config@v1.0.0
         with:
           token: ${{github.token}}
           username: ${{github.actor}}
-      - run: pnpm run build
+      - run: yarn build
       - name: 'Commit Build'
         uses: matheusalbino/git-commit@v1.0.1
         with: 
