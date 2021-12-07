@@ -1,5 +1,5 @@
 {
-  "name": "log-color-console",
+  "name": "bowser-log-color",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
