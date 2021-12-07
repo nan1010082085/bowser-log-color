@@ -28,7 +28,7 @@ jobs:
         with:
           token: ${{github.token}}
           username: ${{github.actor}}
-      - run: yarn build
+      - run: vite build
       - name: 'Commit Build'
         uses: matheusalbino/git-commit@v1.0.1
         with: 
