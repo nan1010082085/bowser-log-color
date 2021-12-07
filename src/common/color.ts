@@ -55,9 +55,16 @@ const colors = (text: string, type: string) => {
  */
 const groupColors = (text: string[], type: string[]) => {
   return [
-    `%c ${text[0]} %c ${text[1]} `,
-    `${ColorMap.get(type[0])}${leftRadius}`,
-    `${ColorMap.get(type[1])}${rightRadius}`
+    text.map((t) => `%c ${t} `).join(),
+    type.map((t, i) => {
+      let r = '';
+      if (i === 0) {
+        r = leftRadius;
+      } else if (i - 1 === type.length) {
+        r = rightRadius;
+      }
+      return `${ColorMap.get(t)}${r}`;
+    })
   ];
 };
 
