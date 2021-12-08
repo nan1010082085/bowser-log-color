@@ -29,3 +29,5 @@ export interface LogColors {
   gradientBlack: Colors;
   bgGroup: GroupColors;
 }
+
+export const BrowserLogColor: LogColors;
