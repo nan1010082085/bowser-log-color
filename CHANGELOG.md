@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.15](https://github.com/nan1010082085/browser-log-color/compare/v0.0.14...v0.0.15) (2021-12-08)
+
+
+### Features
+
+* 修改导出逻辑，统计log使用方法c ([201a7fd](https://github.com/nan1010082085/browser-log-color/commit/201a7fd4db4742e3830309e4a527a9b63a460593))
+
 ### [0.0.14](https://github.com/nan1010082085/browser-log-color/compare/v0.0.13...v0.0.14) (2021-12-08)
 
 ### [0.0.13](https://github.com/nan1010082085/browser-log-color/compare/v0.0.12...v0.0.13) (2021-12-08)
