@@ -5,7 +5,7 @@ import path from 'path';
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, './es/index.js'),
+      entry: path.resolve(__dirname, './es/main.js'),
       formats: ['umd'],
       name: 'index',
       fileName: (format: any) => `index.${format}.js`

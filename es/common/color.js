@@ -8,7 +8,6 @@ const rightRadius = 'border-radius: 0 5px 5px 0;';
 const bold = 'font-weight:bold;';
 /**
  * 颜色集合
- * @red
  */
 const ColorMap = new Map([
     // general
@@ -24,13 +23,13 @@ const ColorMap = new Map([
     ['boldGreen', `${bold}color:green`],
     ['boldOrange', `${bold}color:orange`],
     // bg
-    ['bgBlack', `${otherStyle}${radius}${bold}background:#000;`],
-    ['bgGreen', `${otherStyle.replace('#FFF', '#000')}${radius}${bold}background:#0F0;`],
-    ['bgBlue', `${otherStyle}${radius}${bold}background:#00F;`],
-    ['bgYellow', `${otherStyle.replace('#FFF', '#000')}${radius}${bold}background:#FF0;`],
     ['bgRed', `${otherStyle}${radius}${bold}background:#FF0000;`],
+    ['bgBlack', `${otherStyle}${radius}${bold}background:#000;`],
+    ['bgBlue', `${otherStyle}${radius}${bold}background:#00F;`],
     ['bgOrange', `${otherStyle}${radius}${bold}background:#FF8C00;`],
     ['bgSpringGreen', `${otherStyle}${radius}${bold}background:#3CB371;`],
+    ['bgYellow', `${otherStyle.replace('#FFF', '#000')}${radius}${bold}background:#FF0;`],
+    ['bgGreen', `${otherStyle.replace('#FFF', '#000')}${radius}${bold}background:#0F0;`],
     // lineargradient
     ['gradientBlack', `${otherStyle}${radius}${bold}background:linear-gradient(#FFF, #000);`],
     ['gradientGreen', `${otherStyle}${radius}${bold}background:linear-gradient(#FFF, #3CB371);`]

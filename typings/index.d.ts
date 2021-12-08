@@ -1,5 +1,12 @@
 type Colors = (text: string) => void;
-type GroupColors = (text: string[]) => void;
+
+type BgColors = (text: string, value?: any) => void;
+/**
+ * @param text 背景文案
+ * @param colors 背景色
+ * @param value 普通文案
+ */
+type GroupColors = (text: string[], colors: string[], value?: any) => void;
 
 export interface LogColors {
   red: Colors;
@@ -12,15 +19,14 @@ export interface LogColors {
   boldGreen: Colors;
   boldOrange: Colors;
   boldYellow: Colors;
-  bgRed: Colors;
-  bgBlue: Colors;
-  bgGreen: Colors;
-  bgYellow: Colors;
-  bgOrange: Colors;
-  bgSpringGreen: Colors;
-  gradientGreen: Colors;
-  bgBlack: Colors;
-  gradientBlack: Colors;
-  bgGroupBlack: GroupColors;
-  bgGroupGradientBlack: GroupColors;
+  bgRed: BgColors;
+  bgBlue: BgColors;
+  bgGreen: BgColors;
+  bgYellow: BgColors;
+  bgOrange: BgColors;
+  bgSpringGreen: BgColors;
+  gradientGreen: BgColors;
+  bgBlack: BgColors;
+  gradientBlack: BgColors;
+  bgGroup: GroupColors;
 }

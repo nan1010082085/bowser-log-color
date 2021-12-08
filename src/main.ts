@@ -9,8 +9,7 @@ import {
   gradientGreen,
   bgBlack,
   gradientBlack,
-  bgGroupBlack,
-  bgGroupGradientBlack
+  bgGroup
 } from './common/bg';
 import {
   red,
@@ -39,7 +38,7 @@ import {
 // boldOrange('test red');
 // boldYellow('test red');
 // console.log('============= bg bold general ==========');
-// bgBlack('test bg red');
+// bgBlack('test bg red', 121);
 // bgRed('test bg red');
 // bgBlue('test bg red');
 // bgGreen('test bg red');
@@ -50,8 +49,7 @@ import {
 // gradientBlack('test bg red');
 // gradientGreen('test bg red');
 // console.log('============= bg group black ==============');
-// bgGroupBlack(['test bg group 1', 'test bg group 2']);
-// bgGroupGradientBlack(['test bg group 1', 'test bg group 2']);
+// bgGroup(['test bg group 1', 'test bg group 2'], ['bgRed', 'bgBlue'], '121231');
 
 const BrowserLogColor: LogColors = {
   red,
@@ -73,8 +71,7 @@ const BrowserLogColor: LogColors = {
   gradientGreen,
   bgBlack,
   gradientBlack,
-  bgGroupBlack,
-  bgGroupGradientBlack
+  bgGroup
 };
 
 export default BrowserLogColor;
