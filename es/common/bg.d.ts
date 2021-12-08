@@ -1,0 +1,11 @@
+export declare const bgBlack: (text: string) => void;
+export declare const bgRed: (text: string) => void;
+export declare const bgBlue: (text: string) => void;
+export declare const bgYellow: (text: string) => void;
+export declare const bgGreen: (text: string) => void;
+export declare const bgOrange: (text: string) => void;
+export declare const bgSpringGreen: (text: string) => void;
+export declare const gradientBlack: (text: string) => void;
+export declare const gradientGreen: (text: string) => void;
+export declare const bgGroupBlack: (text: string[]) => void;
+export declare const bgGroupGradientBlack: (text: string[]) => void;

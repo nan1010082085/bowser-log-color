@@ -1,6 +1,6 @@
 node_modules
 .DS_Store
-es
-dist
+# es
+# dist
 dist-ssr
 *.local
