@@ -53,8 +53,7 @@ jobs:
         with:
           node-version: 16.13.0
           registry-url: https://registry.npmjs.org/
-      - uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
       - run: git pull
       - run: npm publish
+        env:
+          NPM_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
