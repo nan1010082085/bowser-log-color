@@ -67,4 +67,12 @@ const groupColors = (text: string[], type: string[]) => {
   ];
 };
 
-export { colors, groupColors };
+function c(colors: any[], value: string) {
+  if (value) {
+    return console.log(...colors, value);
+  } else {
+    return console.log(...colors);
+  }
+}
+
+export { colors, groupColors, c };
