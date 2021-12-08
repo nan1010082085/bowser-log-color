@@ -26,7 +26,7 @@ import { red, yellow, blue, green, orange, boldRed, boldBlue, boldGreen, boldOra
 // gradientGreen('test bg red');
 // console.log('============= bg group black ==============');
 // bgGroup(['test bg group 1', 'test bg group 2'], ['bgRed', 'bgBlue'], '121231');
-const BrowserLogColor = {
+export const BrowserLogColor = {
     red,
     yellow,
     blue,
@@ -48,4 +48,3 @@ const BrowserLogColor = {
     gradientBlack,
     bgGroup
 };
-export default BrowserLogColor;
