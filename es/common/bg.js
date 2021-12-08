@@ -1,34 +1,43 @@
 import { colors, groupColors } from './color';
+function c(colors, value) {
+    if (value) {
+        return console.log(...colors, value);
+    }
+    else {
+        return console.log(...colors);
+    }
+}
 // bg
 export const bgBlack = (text, value) => {
-    return console.log(...colors(text, 'bgBlack'), value);
+    return c(colors(text, 'bgBlack'), value);
 };
 export const bgRed = (text, value) => {
-    return console.log(...colors(text, 'bgRed'), value);
+    return c(colors(text, 'bgRed'), value);
 };
 export const bgBlue = (text, value) => {
-    return console.log(...colors(text, 'bgBlue'), value);
+    return c(colors(text, 'bgBlue'), value);
 };
 export const bgYellow = (text, value) => {
-    return console.log(...colors(text, 'bgYellow'), value);
+    return c(colors(text, 'bgYellow'), value);
 };
 export const bgGreen = (text, value) => {
-    return console.log(...colors(text, 'bgGreen'), value);
+    return c(colors(text, 'bgGreen'), value);
 };
 export const bgOrange = (text, value) => {
-    return console.log(...colors(text, 'bgOrange'), value);
+    return c(colors(text, 'bgOrange'), value);
 };
 export const bgSpringGreen = (text, value) => {
-    return console.log(...colors(text, 'bgSpringGreen'), value);
+    return c(colors(text, 'bgSpringGreen'), value);
 };
 // gradient
 export const gradientBlack = (text, value) => {
-    return console.log(...colors(text, 'gradientBlack'), value);
+    return c(colors(text, 'gradientBlack'), value);
 };
 export const gradientGreen = (text, value) => {
-    return console.log(...colors(text, 'gradientGreen'), value);
+    return c(colors(text, 'gradientGreen'), value);
 };
 // 多组背景变色
 export const bgGroup = (text, colors, value) => {
-    return console.log(...groupColors(text, colors), value);
+    console.log(groupColors(text, colors));
+    return c(groupColors(text, colors), value);
 };

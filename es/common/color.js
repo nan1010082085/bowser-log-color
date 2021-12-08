@@ -1,10 +1,10 @@
 /**
  * 样式
  */
-const otherStyle = 'color:#FFF;padding:3px;border: 1px solid #FFF;';
-const radius = 'border-radius:5px;';
-const leftRadius = 'border-radius: 5px 0 0 5px;';
-const rightRadius = 'border-radius: 0 5px 5px 0;';
+const otherStyle = 'color:#FFF;padding:3px;';
+const radius = 'border-radius:3px;';
+const leftRadius = 'border-radius: 3px 0 0 3px;';
+const rightRadius = 'border-radius: 0 3px 3px 0;';
 const bold = 'font-weight:bold;';
 /**
  * 颜色集合
@@ -57,8 +57,8 @@ const groupColors = (text, type) => {
             if (i === 0) {
                 r = leftRadius;
             }
-            else if (i - 1 === type.length) {
-                r = rightRadius;
+            else if (i + 1 === type.length) {
+                r = `${rightRadius}`;
             }
             return `${ColorMap.get(t)}${r}`;
         })
