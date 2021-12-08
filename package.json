@@ -1,6 +1,6 @@
 {
   "name": "bowser-log-color",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "scripts": {
     "dev": "vite",
     "build": "rimraf ./dist && pnpm build:es && vite build",
