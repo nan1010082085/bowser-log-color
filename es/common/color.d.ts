@@ -11,4 +11,5 @@ declare const colors: (text: string, type: string) => any[];
  * @returns
  */
 declare const groupColors: (text: string[], type: string[]) => string[];
-export { colors, groupColors };
+declare function c(colors: any[], value: string): void;
+export { colors, groupColors, c };

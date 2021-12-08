@@ -64,4 +64,12 @@ const groupColors = (text, type) => {
         })
     ];
 };
-export { colors, groupColors };
+function c(colors, value) {
+    if (value) {
+        return console.log(...colors, value);
+    }
+    else {
+        return console.log(...colors);
+    }
+}
+export { colors, groupColors, c };

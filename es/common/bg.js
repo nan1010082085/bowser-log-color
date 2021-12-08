@@ -1,12 +1,4 @@
-import { colors, groupColors } from './color';
-function c(colors, value) {
-    if (value) {
-        return console.log(...colors, value);
-    }
-    else {
-        return console.log(...colors);
-    }
-}
+import { c, colors, groupColors } from './color';
 // bg
 export const bgBlack = (text, value) => {
     return c(colors(text, 'bgBlack'), value);

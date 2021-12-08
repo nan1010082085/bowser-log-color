@@ -1,3 +1,2 @@
 import { LogColors } from '../typings';
-declare const BrowserLogColor: LogColors;
-export default BrowserLogColor;
+export declare const BrowserLogColor: LogColors;
