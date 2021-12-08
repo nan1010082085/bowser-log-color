@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/nan1010082085/bowser-log-color/compare/v0.0.5...v0.0.6) (2021-12-08)
+
+
+### Features
+
+* 调整打包逻辑 ([126a13d](https://github.com/nan1010082085/bowser-log-color/commit/126a13dc460684f0bf0b04fc75700b640d6e5a75))
+
 ### [0.0.5](https://github.com/nan1010082085/bowser-log-color/compare/v0.0.4...v0.0.5) (2021-12-08)
 
 ### [0.0.4](https://github.com/nan1010082085/bowser-log-color/compare/v0.0.3...v0.0.4) (2021-12-08)
