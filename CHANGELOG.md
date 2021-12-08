@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/nan1010082085/browser-log-color/compare/v0.0.12...v0.0.13) (2021-12-08)
+
+
+### Features
+
+* 去掉打印样式边框，优化多组打印逻辑，增加普通输出字段 ([7fac2aa](https://github.com/nan1010082085/browser-log-color/commit/7fac2aa111804c7956fed4cf780e829e2f81f1e0))
+
 ### [0.0.12](https://github.com/nan1010082085/browser-log-color/compare/v0.0.11...v0.0.12) (2021-12-08)
 
 
