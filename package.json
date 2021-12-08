@@ -1,9 +1,10 @@
 {
-  "name": "bowser-log-color",
+  "name": "browser-log-color",
   "version": "0.0.5",
   "scripts": {
     "dev": "vite",
-    "build": "rimraf ./dist && pnpm build:es && vite build",
+    "build": "pnpm rimraf && pnpm build:es && vite build",
+    "rimraf": "rimraf ./dist && rimraf ./es",
     "build:es": "tsc -p ./src/tsconfig.json",
     "serve": "vite preview",
     "release": "standard-version"
@@ -14,12 +15,13 @@
     "package.json",
     "README.md"
   ],
-  "main": "./dist/log.umd.js",
-  "module": "./es/main.js",
+  "main": "./dist/index.umd.js",
+  "module": "./es/index.js",
+  "types": "./es/index.d.ts",
   "exports": {
     ".": {
-      "import": "./es/main.js",
-      "require": "./dist/log.umd.js"
+      "import": "./es/index.js",
+      "require": "./dist/index.umd.js"
     }
   },
   "dependencies": {

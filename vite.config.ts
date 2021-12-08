@@ -5,10 +5,10 @@ import path from 'path';
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, './es/main.js'),
+      entry: path.resolve(__dirname, './es/index.js'),
       formats: ['umd'],
-      name: 'log',
-      fileName: (format: any) => `log.${format}.js`
+      name: 'index',
+      fileName: (format: any) => `index.${format}.js`
     },
     rollupOptions: {
       external: ['vue']
