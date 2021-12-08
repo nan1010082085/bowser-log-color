@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/nan1010082085/browser-log-color/compare/v0.0.10...v0.0.11) (2021-12-08)
+
+
+### Features
+
+* publish file ([57a7f03](https://github.com/nan1010082085/browser-log-color/commit/57a7f03441d3da818aa76a3e20abe877560fc2c5))
+
 ### [0.0.10](https://github.com/nan1010082085/browser-log-color/compare/v0.0.9...v0.0.10) (2021-12-08)
 
 
