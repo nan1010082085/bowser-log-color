@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/nan1010082085/browser-log-color/compare/v0.0.6...v0.0.7) (2021-12-08)
+
+
+### Features
+
+* 增加ts声明，完善打包逻辑 ([b9462bc](https://github.com/nan1010082085/browser-log-color/commit/b9462bcc318100bd4198bdd285e1122e02ce4efd))
+
 ### [0.0.6](https://github.com/nan1010082085/bowser-log-color/compare/v0.0.5...v0.0.6) (2021-12-08)
 
 
