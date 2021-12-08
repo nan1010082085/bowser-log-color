@@ -38,6 +38,5 @@ export const gradientGreen = (text, value) => {
 };
 // 多组背景变色
 export const bgGroup = (text, colors, value) => {
-    console.log(groupColors(text, colors));
     return c(groupColors(text, colors), value);
 };
