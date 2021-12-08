@@ -1,6 +1,6 @@
 {
   "name": "browser-log-color",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "scripts": {
     "dev": "vite",
     "build": "pnpm rimraf && pnpm build:es && vite build",
