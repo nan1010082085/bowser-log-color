@@ -16,11 +16,11 @@
     "README.md"
   ],
   "main": "./dist/index.umd.js",
-  "module": "./es/index.js",
+  "module": "./dist/index.es.js",
   "types": "./es/index.d.ts",
   "exports": {
     ".": {
-      "import": "./es/index.js",
+      "import": "./dist/index.es.js",
       "require": "./dist/index.umd.js"
     }
   },

@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, './es/index.js'),
-      formats: ['umd'],
+      // formats: ['umd'],
       name: 'index',
       fileName: (format: any) => `index.${format}.js`
     },
