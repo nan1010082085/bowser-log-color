@@ -5,7 +5,8 @@ import path from 'path';
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, './src/main.ts'),
+      entry: path.resolve(__dirname, './es/main.js'),
+      formats: ['umd'],
       name: 'log',
       fileName: (format: any) => `log.${format}.js`
     },

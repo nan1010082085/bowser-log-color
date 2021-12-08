@@ -3,20 +3,22 @@
   "version": "0.0.2",
   "scripts": {
     "dev": "vite",
-    "build": "rimraf ./dist && vue-tsc --noEmit && vite build",
+    "build": "rimraf ./dist && pnpm build:es && vite build",
+    "build:es": "tsc -p ./src/tsconfig.json",
     "serve": "vite preview",
     "release": "standard-version"
   },
   "files": [
     "dist",
+    "es",
     "package.json",
     "README.md"
   ],
   "main": "./dist/log.umd.js",
-  "module": "./dist/log.es.js",
+  "module": "./es/main.js",
   "exports": {
     ".": {
-      "import": "./dist/log.es.js",
+      "import": "./es/main.js",
       "require": "./dist/log.umd.js"
     }
   },
