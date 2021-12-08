@@ -11,7 +11,7 @@ export default defineConfig({
       fileName: (format: any) => `index.${format}.js`
     },
     rollupOptions: {
-      external: ['vue']
+      // external: ['vue']
     }
   },
   plugins: []

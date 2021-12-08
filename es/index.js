@@ -27,4 +27,27 @@ import { red, yellow, blue, green, orange, boldRed, boldBlue, boldGreen, boldOra
 // console.log('============= bg group black ==============');
 // bgGroupBlack(['test bg group 1', 'test bg group 2']);
 // bgGroupGradientBlack(['test bg group 1', 'test bg group 2']);
-export { red, yellow, blue, green, orange, boldRed, boldBlue, boldGreen, boldOrange, boldYellow, bgRed, bgBlue, bgGreen, bgYellow, bgOrange, bgSpringGreen, gradientGreen, bgBlack, gradientBlack, bgGroupBlack, bgGroupGradientBlack };
+const BrowserLogColor = {
+    red,
+    yellow,
+    blue,
+    green,
+    orange,
+    boldRed,
+    boldBlue,
+    boldGreen,
+    boldOrange,
+    boldYellow,
+    bgRed,
+    bgBlue,
+    bgGreen,
+    bgYellow,
+    bgOrange,
+    bgSpringGreen,
+    gradientGreen,
+    bgBlack,
+    gradientBlack,
+    bgGroupBlack,
+    bgGroupGradientBlack
+};
+export default BrowserLogColor;

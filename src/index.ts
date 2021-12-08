@@ -1,3 +1,4 @@
+import { LogColors } from '../typings';
 import {
   bgRed,
   bgBlue,
@@ -52,7 +53,7 @@ import {
 // bgGroupBlack(['test bg group 1', 'test bg group 2']);
 // bgGroupGradientBlack(['test bg group 1', 'test bg group 2']);
 
-export {
+const BrowserLogColor: LogColors = {
   red,
   yellow,
   blue,
@@ -75,3 +76,5 @@ export {
   bgGroupBlack,
   bgGroupGradientBlack
 };
+
+export default BrowserLogColor;
