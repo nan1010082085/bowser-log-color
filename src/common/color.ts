@@ -1,7 +1,7 @@
 /**
  * 样式
  */
-const otherStyle = 'color:#FFF;padding:3px;';
+const otherStyle = 'color:#FFF;padding: 2px 3px;';
 const radius = 'border-radius:3px;';
 const leftRadius = 'border-radius: 3px 0 0 3px;';
 const rightRadius = 'border-radius: 0 3px 3px 0;';
