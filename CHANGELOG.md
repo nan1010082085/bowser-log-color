@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.18](https://github.com/nan1010082085/browser-log-color/compare/v0.0.17...v0.0.18) (2022-01-11)
+
+
+### Features
+
+* **license:** 修改开源协议 ([9aa4c4e](https://github.com/nan1010082085/browser-log-color/commit/9aa4c4e5760b2ae56937e4410e8ae67ad343c7cf))
+
 ### [0.0.17](https://github.com/nan1010082085/browser-log-color/compare/v0.0.16...v0.0.17) (2022-01-11)
 
 
